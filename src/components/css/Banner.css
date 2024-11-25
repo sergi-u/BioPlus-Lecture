@@ -1,0 +1,73 @@
+.banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-content{
+    position: relative;
+    z-index: 1;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0 ,0,0.5);
+    z-index: 0;
+
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+.banner h1 span {
+    font-size: 5rem;
+}
+
+.BannerDefault {
+    background-image: url("https://ro.syrebo.com/uploads/202232032/ImgScroll/ba202202280959028464311.jpg");
+}
+
+.BannerDefault2 {
+    background-image: url("https://cdn.pixabay.com/photo/2015/10/29/14/39/web-1012469_1280.jpg");
+}
+
+.BannerL1 {
+    background-image: url('https://www.helpnet.ro/data/images/img-large/0/3_36960.jpg');
+}
+
+.BannerL2 {
+    background-image: url("https://globalhealth.washington.edu/sites/default/files/styles/content_image/public/tuberculosis%20banner.png?itok=YvBwUeLS");
+}
+
+.BannerL3 {
+    background-image: url("https://cardioclass.ro/wp-content/uploads/2020/05/screening-boli-cardiovasculare-AVC-banner.jpg");
+}
+
+.BannerL4 {
+    background-image: url("https://www.dgfe.org/fileadmin/user_upload/Stage/dgfe-stage-brain-image.jpg");
+}
+
+.BannerL5 {
+    background-image: url("https://png.pngtree.com/background/20210711/original/pngtree-aids-red-ribbon-banner-poster-background-picture-image_1070889.jpg");
+}
+
+.BannerAbout {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/005/720/479/small/banner-abstract-background-board-for-text-and-message-design-modern-free-vector.jpg');
+}

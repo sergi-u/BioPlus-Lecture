@@ -1,0 +1,17 @@
+.textCoords {
+    height: 70px;
+}
+
+.imageCoords {
+    width: 220px;
+    mix-blend-mode: multiply;
+}
+
+.cardText {
+    justify-content: center;
+    text-align: center;
+    color: #63535B;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

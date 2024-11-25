@@ -1,0 +1,9 @@
+.Image-Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Image-Child {
+    justify-content: center;
+    width: auto;
+}

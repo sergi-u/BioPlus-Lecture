@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.nav-btn-ovr {
+    color: #ffffff!important;
+}
+
+.item-hover:hover {
+    background-color:#a17c6b !important;
+    color: #faebf8!important;
+    font-size: 1.05em;
+}
+
+.NavBarImage {
+    margin-top: 5px;
+}
+
+.NavBar-Font {
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 1500;
+  font-style: normal;
+}
+
+.nav {
+    height: 50px;
+}
+.nav-item {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.myColor {
+    background-color: #63535b;
+}
+
+.myColor-DropDown {
+    background-image: linear-gradient(to right, #63535b, #63535b);
+    border-color: #63535b !important;
+    border: 1.4em;
+}
+
+.myColor-DropDown:hover {
+    background-image: linear-gradient(to right, #a17c6b , #a17c6b );
+    color: #faebf8!important;
+    size: 1.05em;
+    font-size: 1.05em;
+}
+
+.Dropdown-bg-color {
+    background-color: #63535b !important;
+}
+
+.Dropdown-color {
+    background-color: #63535b !important;
+}
+
+.Dropdown-color:hover {
+    background-color: #a17c6b !important;
+}
+
+.Divider-color {
+    background-color:#ebe9f9;
+}
