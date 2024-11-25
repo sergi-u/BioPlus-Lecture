@@ -1,5 +1,5 @@
 {
-  "homepage": "http://sergi-u.github.io/bioplus-lecture",
+  "homepage": "http://sergi-u.github.io/BioPlus-Lecture",
   "name": "create_1",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
